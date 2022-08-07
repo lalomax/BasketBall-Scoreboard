@@ -1,0 +1,56 @@
+* {
+  /* border: 1px dashed teal; */
+  margin: 0;
+}
+@font-face {
+  font-family: 'cursed'; 
+  src: url('./fonts/CursedTimerUlil-Aznm.ttf');
+} 
+
+body {
+    margin: 0;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  background: #1b244a;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h3 {
+  color: whitesmoke;
+}
+
+p, button {
+    font-family: 'Cursed';
+}
+
+button {
+  opacity: .5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover,
+button:focus {
+  opacity: 1;
+}
+
+p {
+  color: #F94F6D;
+  background: black;
+  font-size: 2em;
+  padding-top: .3em;
+  margin: .25em 0; 
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
