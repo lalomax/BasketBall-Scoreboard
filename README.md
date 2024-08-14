@@ -65,9 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
-
-![image](https://github.com/user-attachments/assets/b3e9a46b-964b-4e33-bac1-7b4228e6f851)
+![image](https://github.com/user-attachments/assets/5d31bad3-5f39-4af7-a681-d20afa8c6a07)
 
 
 The code [(scrimba project)](https://v2.scrimba.com/home) provides basic functionality for managing and displaying scores within a web application.
