@@ -28,7 +28,7 @@
   </a>
   -->
 
-  <h3 align="center">Internationalization</h3>
+  <h3 align="center">Basketball Scoreboard</h3>
 
 </div>
 
