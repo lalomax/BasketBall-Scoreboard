@@ -1,7 +1,4 @@
 
-<a id="readme-top"></a>
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -34,38 +31,12 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://github.com/user-attachments/assets/5d31bad3-5f39-4af7-a681-d20afa8c6a07)
+![image](https://github.com/user-attachments/assets/b3f89205-66f0-424d-b720-f34370e1b98b)
 
 
 The code [(scrimba project)](https://v2.scrimba.com/home) provides basic functionality for managing and displaying scores within a web application.
@@ -80,7 +51,7 @@ Defines functions:
 * put(e): This function is used to increment a score. It takes an event object e as input, which presumably contains information about which team's score should be updated and the value to add. The function retrieves the current score from the appropriate HTML element, converts it to a number, adds the new value, and then updates the HTML element with the new score.
 * make(e): This function is used to reset a score to zero. Similar to put, it takes an event object e and determines which score to reset based on the event information. It then sets the corresponding HTML element's content to "0".
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ### Built With
@@ -143,8 +114,17 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+```mermaid
+flowchart 
+    A(1. Clone the repository) --> B((Clone Fork))
+    B --> C{2. Create Feature Branch}
+    C --> D[Make Changes]
+    D --> E((3. Commit Changes))
+    E --> F((4. Push Changes))
+    F --> G((5. Create Pull Request))
+    G -- Approved --> H((Merge Pull Request))
+    G -- Rejected --> D
+```
 
 
 <!-- LICENSE -->
@@ -156,7 +136,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [https://x.com/OrlandoFloresH](https://x.com/OrlandoFloresH) - createc.bo@gmail.com
+Orlando - [https://x.com/OrlandoFloresH](https://x.com/OrlandoFloresH) - lalomax365.bo@gmail.com
 
 Project Link: [https://github.com/lalomax/internationalize](https://github.com/lalomax/BasketBall-Scoreboard)
 
@@ -167,8 +147,6 @@ Project Link: [https://github.com/lalomax/internationalize](https://github.com/l
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -178,7 +156,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
