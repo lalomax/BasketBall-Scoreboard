@@ -1,40 +1,65 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Scoreboard</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
-
 <body>
   <h1>Basketball Scoreboard</h1>
   <div class="container">
-    <div>
+    <div class="board">
       <h3>HOME</h3>
       <p id="home-result">0</p>
-      <button class="home-btn" name="home" value="1" onclick="put(this)">+1</button>
-      <button class="home-btn" name="home" value="2" onclick="put(this)">+2</button>
-      <button class="home-btn" name="home" value="3" onclick="put(this)">+3</button>
-      <br>
-      <button class="home-btn" name="home" value="-1" onclick="put(this)">-1</button>
-      <button class="home-btn" name="home" value="-2" onclick="put(this)">-2</button>
-      <button class="home-btn" name="home" value="-3" onclick="put(this)">-3</button>
-      <hr>
+      <button class="home-btn" name="home" value="1" onclick="put(this)">
+        +1
+      </button>
+      <button class="home-btn" name="home" value="2" onclick="put(this)">
+        +2
+      </button>
+      <button class="home-btn" name="home" value="3" onclick="put(this)">
+        +3
+      </button>
+      <br />
+      <button class="home-btn" name="home" value="-1" onclick="put(this)">
+        -1
+      </button>
+      <button class="home-btn" name="home" value="-2" onclick="put(this)">
+        -2
+      </button>
+      <button class="home-btn" name="home" value="-3" onclick="put(this)">
+        -3
+      </button>
+      <hr />
       <button name="home" onclick="make(this)">Reset</button>
     </div>
-    <div>
+    <div class="board">
       <h3>GUEST</h3>
       <p id="guest-result">0</p>
-      <button class="home-btn" name="guest" value="1" onclick="put(this)">+1</button>
-      <button class="home-btn" name="guest" value="2" onclick="put(this)">+2</button>
-      <button class="home-btn" name="guest" value="3" onclick="put(this)">+3</button>
-      <br>
-      <button class="home-btn" name="guest" value="-1" onclick="put(this)">-1</button>
-      <button class="home-btn" name="guest" value="-2" onclick="put(this)">-2</button>
-      <button class="home-btn" name="guest" value="-3" onclick="put(this)">-3</button>
-      <hr>
+      <button class="home-btn" name="guest" value="1" onclick="put(this)">
+        +1
+      </button>
+      <button class="home-btn" name="guest" value="2" onclick="put(this)">
+        +2
+      </button>
+      <button class="home-btn" name="guest" value="3" onclick="put(this)">
+        +3
+      </button>
+      <br />
+      <button class="home-btn" name="guest" value="-1" onclick="put(this)">
+        -1
+      </button>
+      <button class="home-btn" name="guest" value="-2" onclick="put(this)">
+        -2
+      </button>
+      <button class="home-btn" name="guest" value="-3" onclick="put(this)">
+        -3
+      </button>
+      <hr />
       <button name="guest" onclick="make(this)">Reset</button>
     </div>
   </div>
-  <script src="index.js"></script>
+  <script src="index.js"></script>  
 </body>
-
 </html>
