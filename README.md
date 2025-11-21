@@ -84,11 +84,6 @@ If it is not installed, [download](https://nodejs.org/en) and install it.
    cd BasketBall-Scoreboard
    ```
    
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -138,10 +133,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Orlando - [https://x.com/OrlandoFloresH](https://x.com/OrlandoFloresH) - lalomax365.bo@gmail.com
 
-Project Link: [https://github.com/lalomax/internationalize](https://github.com/lalomax/BasketBall-Scoreboard)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Project [Link](https://github.com/lalomax/BasketBall-Scoreboard)
 
 
 <!-- ACKNOWLEDGMENTS -->
