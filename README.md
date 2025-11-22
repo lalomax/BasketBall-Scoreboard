@@ -36,7 +36,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://github.com/user-attachments/assets/b3f89205-66f0-424d-b720-f34370e1b98b)
+<img width="819" height="522" alt="image" src="https://github.com/user-attachments/assets/aaa2ea58-e8bd-4743-973c-9b76e4678ef9" />
+
 
 
 The code [(scrimba project)](https://v2.scrimba.com/home) provides basic functionality for managing and displaying scores within a web application.
@@ -65,14 +66,6 @@ Defines functions:
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-* Check if Node.js is installed
-  ```sh
-  node -v
-  ```
-If it is not installed, [download](https://nodejs.org/en) and install it.
-
 ### Installation
 
 1. Clone the repo
@@ -87,8 +80,33 @@ If it is not installed, [download](https://nodejs.org/en) and install it.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add Changelog
-- [ ] Multi-language Support
+### Functionality Enhancement:
+- [x] Add a timer/game clock to track quarters or halves
+- [ ] Include team name inputs instead of just "HOME" and "GUEST"
+- [ ] Add quarter/period indicator to show game progression
+- [ ] Include an undo button for accidental score changes
+- [ ] Add sound effects for score updates (optional toggle)
+
+### Visual Improvements:
+
+- [ ] Use larger, more readable fonts for the scores
+- [ ] Add color coding (different colors for each team)
+- [ ] Implement responsive design for mobile devices
+- [ ] Add visual feedback when buttons are clicked (animations/highlights)
+- [ ] Consider a dark mode option
+
+### Additional Features:
+
+- [ ] Save game state (localStorage) to persist scores on page refresh
+- [ ] Add fouls counter for each team
+- [ ] Include timeouts tracking
+- [ ] Add a game history/log showing scoring events
+- [ ] Implement keyboard shortcuts for quick scoring
+
+### Technical:
+
+- [ ] Ensure accessibility (ARIA labels, keyboard navigation)
+- [ ] Add input validation to prevent negative scores
     
 
 See the [open issues](https://github.com/lalomax/BasketBall-Scoreboard/issues) for a full list of proposed features (and known issues).
