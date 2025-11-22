@@ -1,5 +1,5 @@
-const markerHome = document.getElementById("home-result");
-const markerGuest = document.getElementById("guest-result");
+const markerHome = document.getElementById("first-team");
+const markerGuest = document.getElementById("second-team");
 const timerElement = document.getElementById("game-timer");
 let time = 0;
 let timerInterval;

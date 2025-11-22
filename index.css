@@ -87,8 +87,16 @@ button:focus {
   opacity: 1;
 }
 
+#first-team {
+  color: cyan;
+}
+
+#second-team {
+  color: yellowgreen;
+}
+
 p {
-  color: #F94F6D;
+  color: orangered;
   background: black;
   font-size: 2em;
   padding-top: .3em;
